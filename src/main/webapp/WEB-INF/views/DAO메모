@@ -1,0 +1,34 @@
+getTotalCount
+	정적쿼리문. queryForObject(sql, 정수형반환)
+
+list
+	정적쿼리문. query(sql, BeanPropertyRowMapper)
+
+listPage
+	동적쿼리문. query(sql, BeanPropertyRowMapper, Object[])
+
+write
+	update(매개변수1)
+	매개변수1 : 동적쿼리문을 포함한 PreparedStatementCreator 익명클래스 사용. 
+	
+updateHit
+	update(매개변수1, 매개변수2)
+	매개변수1 : sql문
+	매개변수2 : PreparedStatementSetter 익명클래스 사용
+
+view
+	queryForObject(sql, BeanPropertyRowMapper, Object[])
+
+password
+	queryForObject(sql, BeanPropertyRowMapper, Object[])	
+
+edit
+	update(sql, Object[])
+	
+delete
+	update(매개변수1, 매개변수2)
+	매개변수1 : sql문
+	매개변수2 : PreparedStatementSetter 익명클래스 사용
+
+
+

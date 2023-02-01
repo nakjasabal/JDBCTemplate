@@ -57,11 +57,12 @@
       <version>1.2</version>
     </dependency>
     <!-- 오라클 드라이버 -->
-	<dependency>  
-		<groupId>com.oracle</groupId>
-		<artifactId>ojdbc6</artifactId>
-		<version>11.2.0.3</version>
+	<dependency>
+		<groupId>com.oracle.database.jdbc</groupId>
+		<artifactId>ojdbc11</artifactId>
+		<version>21.8.0.0</version>
 	</dependency>
+
 	<!-- JdbcTemplate -->
 	<dependency>
 		<groupId>org.springframework</groupId>
